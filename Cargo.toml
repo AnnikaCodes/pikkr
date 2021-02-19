@@ -1,11 +1,11 @@
 [package]
-name = "pikkr"
+name = "pikkr-annika"
 version = "0.16.1"
 authors = ["Keiji Yoshida <kjmrknsn@gmail.com>"]
-description = "JSON Parser which picks up values directly without performing tokenization in Rust"
+description = "JSON Parser which picks up values directly without performing tokenization in Rust. Reuploaded by Annika due to her compile problems."
 documentation = "https://pikkr.github.io/doc/pikkr/"
 homepage = "https://github.com/pikkr/pikkr"
-repository = "https://github.com/pikkr/pikkr"
+repository = "https://github.com/AnnikaCodes/pikkr"
 readme = "README.md"
 keywords = ["pikkr", "json", "simd"]
 categories = ["algorithms", "data-structures", "parser-implementations", "parsing", "text-processing"]
