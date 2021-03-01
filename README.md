@@ -1,13 +1,12 @@
 # Pikkr
 
-[![Crates.io version shield](https://img.shields.io/crates/v/pikkr.svg)](https://crates.io/crates/pikkr)
-[![Build Status](https://travis-ci.org/pikkr/pikkr.svg?branch=master)](https://travis-ci.org/pikkr/pikkr)
+[![Crates.io version shield](https://img.shields.io/crates/v/pikkr-annika.svg)](https://crates.io/crates/pikkr-annika)
 
 JSON parser which picks up values directly without performing tokenization in Rust
 
 ## Abstract
 
-Pikkr is a JSON parser which picks up values directly without performing tokenization in Rust. This JSON parser is implemented based on [Y. Li, N. R. Katsipoulakis, B. Chandramouli, J. Goldstein, and D. Kossmann. Mison: a fast JSON parser for data analytics. In *VLDB*, 2017](http://www.vldb.org/pvldb/vol10/p1118-li.pdf).
+Pikkr is a JSON parser which picks up values directly without performing tokenization in Rust. This JSON parser is implemented based on [Y. Li, N. R. Katsipoulakis, B. Chandramouli, J. Goldstein, and D. Kossmann. Mison: a fast JSON parser for data analytics. In *VLDB*, 2017](http://www.vldb.org/pvldb/vol10/p1118-li.pdf). It is currently ""maintained"" by Annika.
 
 This JSON parser extracts values from a JSON record without using finite state machines (FSMs) and performing tokenization. It parses JSON records in the following procedures:
 
